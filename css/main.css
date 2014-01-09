@@ -1,0 +1,1517 @@
+@font-face {
+    font-family: 'enzo_probold';
+    src: url('fonts/fontfont_-_enzopro-bold-webfont.eot');
+    src: url('fonts/fontfont_-_enzopro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontfont_-_enzopro-bold-webfont.woff') format('woff'),
+         url('fonts/fontfont_-_enzopro-bold-webfont.ttf') format('truetype'),
+         url('fonts/fontfont_-_enzopro-bold-webfont.svg#enzo_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'enzo_prolight';
+    src: url('fonts/fontfont_-_enzopro-light-webfont.eot');
+    src: url('fonts/fontfont_-_enzopro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontfont_-_enzopro-light-webfont.woff') format('woff'),
+         url('fonts/fontfont_-_enzopro-light-webfont.ttf') format('truetype'),
+         url('fonts/fontfont_-_enzopro-light-webfont.svg#enzo_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'enzo_promedium';
+    src: url('fonts/fontfont_-_enzopro-medium-webfont.eot');
+    src: url('fonts/fontfont_-_enzopro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontfont_-_enzopro-medium-webfont.woff') format('woff'),
+         url('fonts/fontfont_-_enzopro-medium-webfont.ttf') format('truetype'),
+         url('fonts/fontfont_-_enzopro-medium-webfont.svg#enzo_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    /*min-width: 1130px;*/
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'ff-enzo-web', 'enzo_probold', Helvetica Neue, Arial;
+    font-weight: 700;
+    color: #333333;
+}
+
+nav a:visited {
+    color: #333;
+}
+
+.main-menu .subscribe a {
+    color: #fff;
+    background-color: #3366cc;
+}
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+@media \0IE8 { 
+    .main-menu ul {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .main-menu li {
+        width: 150px;
+        float: left;
+        line-height: 18px;
+        padding: 10px 0;
+    }
+
+    .main-menu li:first-child + li {
+        width: 200px;
+    }
+
+    
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0;
+        padding: 25px 15px 10px 15px;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav .subscribe a {
+        margin-right: 0;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .main-menu .facebook, .main-menu .twitter {
+        width: 20px;
+        padding: 30px 10;
+        margin: 10px;
+    }
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+h1 {
+    font-family: 'ff-enzo-web', 'enzo_probold', Helvetica Neue, Arial;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    font-family: 'ff-enzo-web', 'enzo_prolight', Helvetica Neue, Arial;
+    font-weight: 200;
+    color: #999;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 39px;
+    line-height: 42px;
+}
+
+h3 {
+    font-family: 'ff-enzo-web', 'enzo_prolight', Helvetica Neue, Arial;
+    font-weight: 300;
+    color: #999;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 39px;
+    line-height: 42px;
+    margin: 50px 0 30px 0;
+}
+
+p {
+    font-family: "nyt-cheltenham", serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #838383;
+    font-weight: 100;
+    margin: 10px 0 20px 0;
+}
+
+/* ==========================================================================
+   Menu
+   ========================================================================== */
+
+.main-menu a {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+.nav a:hover, .active {
+    background-color: #e0e0e0;
+}
+
+.facebook:hover, .twitter:hover {
+    background-color: transparent;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.facebook, .twitter {
+    cursor: pointer;
+}
+
+.facebook a {
+    background: url(../img/social.png) top left no-repeat;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px -3px 10px;
+}
+
+.twitter a {
+    background: url(../img/social.png) top right no-repeat;
+    padding: 0;
+    width: 67px;
+    height: 16px;
+    margin: 0 0 -3px 0;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    background-color: rgba( 245, 245, 245, 0.8);
+    z-index: 10;
+}
+
+.top-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 0;
+}
+
+/* ==========================================================================
+   Top Section
+   ========================================================================== */
+
+.hero .title {
+    font-size: 60px;
+    padding: 130px 0 0 0;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.main {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.hero .subtitle {
+    font-size: 42px;
+    line-height: 40px;
+    margin: 0 0 25px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.hero {
+    height: 700px;
+}
+
+.tablet {
+    background: url(../img/tablet.png) left top no-repeat;
+    position: absolute;
+    width: 263px;
+    height: 480px;
+    margin-left: -431px;
+    left: 50%;
+    overflow: hidden;
+    margin-top: 300px;
+}
+
+.laptop {
+    background: url(../img/laptop.jpg) center top no-repeat;
+    position: absolute;
+    width: 633px;
+    height: 480px;
+    margin-left: -316px;
+    left: 50%;
+    overflow: hidden;
+    margin-top: 380px;
+}
+
+.play-video {
+    position: absolute;
+    width: 384px;
+    padding-top: 400px;
+    margin-left: 130px;
+    left: 50%;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.play-video img {
+    cursor: pointer;
+}
+
+.play-video h3 {
+    display: none;
+}
+
+.shadow {
+    background: url(../img/shadow.png) center top no-repeat;
+    height: 122px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    margin-top: -122px;
+}
+
+.shadow2 {
+    background: url(../img/shadow2.png) center top no-repeat;
+    height: 122px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    margin-bottom: -122px;
+}
+
+.date {
+    margin: -30px 0 0 200px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'ff-enzo-web', 'enzo_probold', Helvetica Neue, Arial;
+    font-weight: 700;
+    color: #999;
+    line-height: 20px;
+    opacity: 0;
+}
+
+.date span {
+    color: #333;
+}
+
+.date.pre {
+    opacity: 1;
+}
+
+/* ==========================================================================
+   Section 1 - The Redesign
+   ========================================================================== */
+
+.section1 {
+    background: #fff;
+    position: relative;
+    z-index: 5;
+    padding: 65px 0 55px 0;
+    margin-top: -10px;
+}
+
+.section1 h1 {
+    margin: 10px 0;
+}
+
+.section1 h2 {
+    margin: 0;
+    color: #999;
+}
+
+.left-text {
+    text-align: left;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right-text {
+    text-align: left;
+    width: 420px;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   Section 2 - Reading
+   ========================================================================== */
+
+.section2 {
+    background: #f5f5f5;
+    position: relative;
+    z-index: 2;
+    padding: 70px 0 0 0;
+}
+
+.section2 h1 {
+    margin: 5px 0;
+}
+
+.section2 h2 {
+    margin: 0 0 75px 0;
+    color: #999;
+}
+
+.section2 p {
+    padding-right: 10px;
+}
+
+.section2 .slide-wrapper {
+    width: 983px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section2 .right-text {
+    text-align: left;
+    width: 350px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.section2 .left-image {
+    text-align: left;
+    width: 582px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.enter.pre {
+    display: none;
+}
+
+.release.pre {
+    display: none;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0 0 2px 4px;
+}
+
+.browser {
+    width: 579px;
+    height: 21px;
+    background: url(../img/browser.png) top center no-repeat;
+}
+
+.scroll {
+    width: 579px;
+    height: 350px;
+    background: url(../img/scroll.jpg) top center no-repeat;
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    -ms-transition-delay: .1s;
+    transition-delay: .1s;
+    overflow: hidden;
+}
+
+.flip {
+    width: 579px;
+    height: 350px;
+    background: url(../img/flip.jpg) top left no-repeat #fff;
+    overflow: hidden;
+    -webkit-transition: background-position .2s ease-in-out;
+    -moz-transition: background-position .2s ease-in-out;
+    -o-transition: background-position .2s ease-in-out;
+    -ms-transition: background-position .2s ease-in-out;
+    transition: background-position .2s ease-in-out;
+}
+
+.scroll .cursor, .flip-slide .cursor {
+    background: url(../img/cursor.png) top center no-repeat;
+    position: absolute;
+    width: 29px;
+    height: 48px;
+    top: 250px;
+    margin-left: 370px;
+}
+
+.sharing .cursor {
+    background: url(../img/cursor.png) top center no-repeat;
+    position: absolute;
+    width: 29px;
+    height: 48px;
+    top: 250px;
+    margin-left: 370px;
+    z-index: 1;
+}
+
+.sharing-over {
+    position: absolute;
+    background: url(../img/share_over.png) top center no-repeat;
+    width: 581px;
+    height: 364px;
+    opacity: 0;
+}
+
+.flip-arrow {
+    width: 19px;
+    height: 48px;
+    background: url(../img/flip_arrow.png) top center no-repeat;
+    cursor: pointer;
+    opacity: 0.7;
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 150px;
+}
+
+.flip-arrow:hover {
+    opacity: 1;
+}
+
+.slide-title {
+    font-family: 'ff-enzo-web', 'enzo_prolight', Helvetica Neue, Arial;
+    font-weight: 300;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin-top: 40px;
+}
+
+.suggestions {
+    margin-top: 10px;
+}
+
+.slide-text a {
+    font-family: 'ff-enzo-web', 'enzo_probold', Helvetica Neue, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+}
+
+.slide-text a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   Section 3 - Specifics
+   ========================================================================== */
+
+.section3 h1 {
+    margin: 10px 0;
+}
+
+.section3 {
+    position: relative;
+    z-index: 2;
+    padding: 60px 0 0 0;
+}
+
+.specs {
+    margin: 100px 0 200px 0;
+}
+
+.specs p {
+    padding-right: 5px;
+}
+
+.specs h3 {
+    color: #333;
+}
+
+.spec-left-text {
+    text-align: left;
+    width: 360px;
+    padding-right: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.spec-right-text.hide {
+    display: none;
+}
+
+.spec-right-text {
+    text-align: left;
+    width: 360px;
+    padding-left: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.spec-image {
+    display: inline-block;
+    width: 580px;
+    height: 364px;
+}
+
+.poster {
+    position: absolute;
+}
+
+video {
+    position: relative;
+    z-index: 2;
+}
+
+.spec3 .cursor {
+    background: url(../img/cursor.png) top center no-repeat;
+    position: absolute;
+    width: 29px;
+    height: 48px;
+    margin-top: 200px;
+    margin-left: 170px;
+}
+
+.ribbon {
+    background: url(../img/ribbon.jpg) left top repeat-x;
+    position: absolute;
+    width: 578px;
+    height: 45px;
+    margin-top: 44px;
+    margin-left: 2px;
+    -webkit-transition: background-position 1s ease-in-out;
+    -moz-transition: background-position 1s ease-in-out;
+    -o-transition: background-position 1s ease-in-out;
+    -ms-transition: background-position 1s ease-in-out;
+    transition: background-position 1s ease-in-out;
+}
+
+.ribbon-arrow {
+    background: url(../img/ribbon_arrow.png) top left no-repeat;
+    position: absolute;
+    width: 66px;
+    height: 58px;
+    margin: 43px 0 0 1px;
+    opacity: 0;
+}
+
+.alert {
+    background: url(../img/alert.jpg) center 22px no-repeat;
+    position: absolute;
+    width: 581px;
+    height: 363px;
+    -webkit-transition: background-position 0.5s ease-in-out;
+    -moz-transition: background-position 0.5s ease-in-out;
+    -o-transition: background-position 0.5s ease-in-out;
+    -ms-transition: background-position 0.5s ease-in-out;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.section4 h1 {
+    margin: 0;
+    padding: 75px 0;
+}
+
+/* ==========================================================================
+   Section 4 - Timeline
+   ========================================================================== */
+
+.section4 {
+    background: #fff;
+    height: 600px;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 75px;
+}
+
+.section4 .slide-title {
+    margin-top: 20px;
+}
+
+.section4 .slide-wrapper {
+    width: 983px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section4 .right-text {
+    text-align: left;
+    width: 350px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.section4 .left-image {
+    text-align: left;
+    width: 581px;
+    height: 364px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* ==========================================================================
+   Section 5 - Enter the New
+   ========================================================================== */
+
+.section5 {
+    background: #f5f5f5;
+    position: relative;
+    z-index: 2;
+    padding: 80px 0;
+}
+
+.section5 h1 {
+    margin: 10px 0 0 0;
+}
+
+.section5 h2 {
+    margin: 0 0 70px 0;
+    color: #999;
+}
+
+#feed {
+    text-align: left;
+}
+
+.feed-wrapper {
+    clear: both;
+    min-height: 120px;
+}
+
+#feed h3 {
+    font-family: 'ff-enzo-web', 'enzo_promedium', Helvetica Neue, Arial;
+    font-size: 27px;
+    color: #333;
+    margin: 0;
+    padding: 5px 0 0 0;
+    text-decoration: underline;
+}
+
+#feed p {
+    font-weight: 200;
+    margin: 5px 0 0 0;
+}
+
+#feed img {
+    float: left;
+    width: 120px;
+    padding: 0 20px 20px 0;
+}
+
+/* ==========================================================================
+   Section 6 - Subscribe
+   ========================================================================== */
+
+.section6 {
+    background: url(../img/blue.png) top center repeat #3366cc;
+}
+
+.subscribe-wrapper {
+    padding: 30px 0 30px 0;
+    display: block;
+}
+
+.section6 h1 {
+    font-size: 52px;
+    line-height: 60px;
+    color: #fff;
+    margin: 30px 0 0 0;
+}
+
+.section6 h2 {
+    color: #80aaff;
+    font-size: 41px;
+    margin: 10px 0;
+}
+
+.section6 h3 {
+    color: #fff;
+    font-size: 41px;
+    margin: 20px 0 30px 0;
+    text-decoration: underline;
+}
+
+.subscribe.intl .price {
+    display: none;
+}
+
+.intl-price {
+    display: none;
+}
+
+.subscribe.intl .intl-price {
+    display: block;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer-menu {
+    font-size: 12px;
+    color: #999999;
+    padding: 10px 0;
+}
+
+.footer-menu a {
+    padding: 7px;
+    color: #999999;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* FlexSlider Browser Resets
+*********************************/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img { margin: 0 auto; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { margin: 0 0 60px; position: relative; zoom: 1; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-right: 5px; }
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a  { text-indent: -9999px; display: block; width: 100px; height: 184px; margin: -20px 0 0; position: absolute; top: 20%; z-index: 10; overflow: hidden; cursor: pointer; color: rgba(0,0,0,0.8); -webkit-transition: margin .3s ease; -moz-transition: margin .3s ease; transition: margin .3s ease; }
+.flex-direction-nav .flex-prev { background: url(../img/left.png) top left; left: 0; }
+.flex-direction-nav .flex-next { background: url(../img/right.png) top right; right: 0; }
+.flexslider:hover .flex-prev { opacity: 0.7; left: 0; }
+.flexslider:hover .flex-next { opacity: 0.7; right: 0; }
+.flex-prev:hover { background-position: bottom left; opacity: 1; margin-left: 0; }
+.flex-next:hover { background-position: bottom left; opacity: 1; margin-right: 0; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+
+
+/* Pause/Play */
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:hover  { opacity: 1; }
+.flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -60px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #ccc; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #a8a8a8;}
+.flex-control-paging li a.flex-active { background: #8e8e8e; cursor: default; }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+   
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+    
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0;
+        padding: 25px 15px 10px 15px;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav .subscribe a {
+        margin-right: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+/* ========================
+    Tablets
+   ======================== */
+
+@media only screen and (max-width: 1093px) {
+    
+    .spec-right-text {
+        display: none;
+    }
+
+    .spec-right-text.hide {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .main-menu a {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .main-menu .nav a, .subscribe a {
+        width: 90%;
+        padding: 18px 0 18px 10%;
+    }
+
+    .top-bar {
+        display: none;
+    }
+
+    .header-container {
+        background-color: rgba( 245, 245, 245, 0.9);
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 230px;
+        margin: 0;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        opacity: 1;
+    } 
+
+    .header-container.open {
+        left: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .navicon-button {
+        display: inline-block;
+        position: fixed;
+        left: 0;
+        padding: 1.75rem 1rem;
+        cursor: pointer;
+        user-select: none;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        opacity: .7;
+        z-index: 2;
+    }
+
+    .navicon-button:hover {
+        opacity: 1;
+    }
+
+    .header-container.open .navicon-button {
+        left: 170px;
+    }
+
+    .navicon:before, .navicon:after {
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .navicon {
+        position: relative;
+        width: 2em;
+        height: .3125rem;
+        background: #333;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+      
+    .navicon:after, .navicon:before {
+        display: block;
+        content: "";
+        height: .3125rem;
+        width: 2rem;
+        background: #333;
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .navicon:after { top: -.625rem; }
+    .navicon:before { top: .625rem; }
+
+    .open:not(.steps) .navicon:before,
+    .open:not(.steps) .navicon:after {
+        top: 0 !important;
+    }
+
+    .header-container.open .navicon {
+        background: transparent;
+    }
+
+    .header-container.open .navicon:after { 
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); 
+    }  
+
+    .header-container.open .navicon:before { 
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg); 
+    }  
+
+    .facebook, .twitter {
+        cursor: pointer;
+        float: left;
+        margin: 10px 5px 15px 5px;
+        padding: 10px 0;
+    }
+
+    .facebook {
+        margin-left: 10px;
+    }
+
+    html, body { min-width: 100%;  overflow-x: hidden; }
+
+    h1, h2, p {
+        padding: 0 2%;
+        text-align: center;
+    }
+
+    .hero .title, h1, .section6 h1 {
+        font-size: 50px;
+    }
+
+    .hero .subtitle, h2, .slide-title, h3, .section6 h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .specs {
+        margin: 50px 0 100px 0;
+    }
+
+    .wrapper {
+        margin: 0;
+        width: 100%;
+    }
+
+    img, video, .spec-image, .ribbon, .alert {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .slide-title {
+        margin-top: 10px;
+    }
+
+    .section2 .slide-wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .section2 .right-text {
+        text-align: center;
+        width: 90%;
+        display: inline-block;
+        padding-left: 1%;
+    }
+
+    .section2 .left-image {
+        text-align: left;
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 30px 12%;
+    }
+
+    .flip, .section2 .left-image img {
+        min-width: 560px;
+        height: 350px;
+    }
+
+    .scroll {
+        height: 330px;
+    }
+
+    .poster {
+        display: block;
+    }
+
+    .sharing-over {
+        width: 540px;
+    }
+
+    video {
+        height: 364px;
+        width: 100%;
+    }
+
+    .spec-left-text, .spec-right-text, .right-text {
+        width: 70%;
+        text-align: left;
+        padding: 0;
+    }
+
+    .section4 {
+        padding-bottom: 350px;
+    }
+
+    .section4 .slide-wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .section4 .right-text {
+        text-align: left;
+        width: 90%;
+        display: block;
+        padding-left: 1%;
+    }
+
+    .section4 .left-image {
+        text-align: left;
+        width: auto;
+        height: auto;
+        min-height: 200px;
+        display: block;
+    }
+
+    .play-video {
+        margin-left: 0;
+        left: auto;
+        right: 0;
+    }
+
+    .feed-wrapper {
+        text-align: center;
+    }
+
+    #feed img {
+        float: none;
+        width: 120px;
+        padding: 20px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .specs h3 {
+        text-align: center;
+    }
+
+}
+
+/* ========================
+    Smartphones
+   ======================== */
+
+@media only screen and (max-width: 768px) {
+
+    .hero .title, h1, .section6 h1 {
+        font-size: 40px;
+    }
+
+    .hero .subtitle, h2, .slide-title, h3, .section6 h2, .section6 h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .tablet {
+        left: 0;
+        right: auto;
+        margin-left: 0;
+    }
+
+    .laptop {
+        width: 100%;
+        left: auto;
+        margin-left: 0;
+    }
+
+    .hero {
+        margin-bottom: -80px;
+    }
+
+    .hero .title {
+        padding: 70px 0 0 0;
+    }
+
+    .hero .subtitle {
+        margin: 0;
+    }
+
+    .left-text {
+        width: 87%;
+    }
+
+    .poster {
+        display: none;
+    }
+
+    .section2 video {
+        min-height: 364px;
+        min-width: 580px;
+    }
+
+    .section2 .left-image {
+        text-align: left;
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 30px 12%;
+    }
+
+    .section2 .right-text {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        padding-left: 0;
+    }
+
+    .spec-left-text, .spec-right-text, .right-text {
+        width: 90%;
+    }
+
+    .section4 .right-text {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-left: 0;
+    }
+
+    .flex-direction-nav a {
+        top: 30%;
+        opacity: 0.4;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    video {
+        height: 200px;
+    }
+
+    .section2 .left-image {
+        margin: 0 0 30px 0;
+    }
+
+    .play-video {
+        position: relative;
+        top: 80px;
+        right: 0;
+        left: auto;
+        max-width: 100%;
+    }
+
+    .ribbon-arrow {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
